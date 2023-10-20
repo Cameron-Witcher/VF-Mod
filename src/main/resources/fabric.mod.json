@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "vanillaflux",
 	"version": "${version}",
-	"name": "Example mod",
+	"name": "VanillaFlux Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"QuickScythe"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,22 +16,22 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.vanillaflux.VanillaFluxMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.vanillaflux.VanillaFluxClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"vanillaflux.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "vanillaflux.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
 		"fabricloader": ">=0.14.22",
-		"minecraft": "~1.20.2",
+		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
