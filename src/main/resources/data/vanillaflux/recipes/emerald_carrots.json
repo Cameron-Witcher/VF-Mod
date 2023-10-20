@@ -1,20 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "WWW",
-    "WRW",
-    "WWW"
+    "TTT",
+    "TRT",
+    "TTT"
   ],
   "key": {
-    "W": {
-      "tag": "minecraft:emerald"
-    },
     "R": {
       "item": "minecraft:golden_carrot"
+    },
+    "T": {
+      "item": "minecraft:emerald"
     }
   },
   "result": {
-    "item": "minecraft:netherite_sword",
+    "item": "vanillaflux:emerald_carrot",
+    "nbt": "{tag:{CustomModelData:300}}",
     "count": 4
   }
 }
